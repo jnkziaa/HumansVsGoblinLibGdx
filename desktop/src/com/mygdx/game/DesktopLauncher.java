@@ -12,7 +12,6 @@ public class DesktopLauncher {
 		config.setTitle("Humans vs Goblins");
 		config.setWindowedMode(1400, 750);
 		config.setForegroundFPS(60);
-		config.setTitle("My GDX Game");
 		new Lwjgl3Application(new MyGdxGame(), config);
 	}
 
